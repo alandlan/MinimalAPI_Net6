@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using MinimalApi.Data;
+using MinimalApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -20,6 +21,22 @@ if (app.Environment.IsDevelopment())
    
 }
 
-app.MapGet("/", () => "Hello World!");
+app.MapGet("/fornecedor", async (MinimalContextDb context) =>
+{
+    var fornecedores = await context.Fornecedores.ToListAsync();
+    return Results.Ok(fornecedores);
+}).Produces<List<Fornecedor>>(StatusCodes.Status200OK)
+.WithName("GetFornecedores").WithTags("Fornecedores");
+
+app.MapGet("/fornecedor/{id}", async (MinimalContextDb context, Guid id) =>
+{
+    var fornecedor = await context.Fornecedores.FindAsync(id);
+    if (fornecedor == null)
+        return Results.NotFound();
+
+    return Results.Ok(fornecedor);
+}).Produces<Fornecedor>(StatusCodes.Status200OK)
+.Produces(StatusCodes.Status404NotFound)
+.WithName("GetFornecedor").WithTags("Fornecedores");
 
 app.Run();
