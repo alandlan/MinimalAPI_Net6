@@ -44,3 +44,5 @@ D:\livre\MInimalAPI_Net6\MinimalApi\obj\Debug\net6.0\refint\MinimalApi.dll
 D:\livre\MInimalAPI_Net6\MinimalApi\obj\Debug\net6.0\MinimalApi.pdb
 D:\livre\MInimalAPI_Net6\MinimalApi\obj\Debug\net6.0\MinimalApi.genruntimeconfig.cache
 D:\livre\MInimalAPI_Net6\MinimalApi\obj\Debug\net6.0\ref\MinimalApi.dll
+D:\livre\MInimalAPI_Net6\MinimalApi\bin\Debug\net6.0\MinimalApis.Extensions.dll
+D:\livre\MInimalAPI_Net6\MinimalApi\bin\Debug\net6.0\MiniValidation.dll

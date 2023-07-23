@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using MinimalApi.Data;
 using MinimalApi.Models;
+using MiniValidation;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -41,11 +42,15 @@ app.MapGet("/fornecedor/{id}", async (MinimalContextDb context, Guid id) =>
 
 app.MapPost("/fornecedor", async (MinimalContextDb context, Fornecedor fornecedor) =>
 {
+    if(!MiniValidator.TryValidate(fornecedor, out var errors))
+        return Results.BadRequest(errors);
+
     fornecedor.Id = Guid.NewGuid();
     context.Fornecedores.Add(fornecedor);
     await context.SaveChangesAsync();
     return Results.Created($"/fornecedor/{fornecedor.Id}", fornecedor);
 }).Produces<Fornecedor>(StatusCodes.Status201Created)
+.Produces(StatusCodes.Status400BadRequest)
 .WithName("PostFornecedor").WithTags("Fornecedores");
 
 app.Run();

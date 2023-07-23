@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "pT81HiB8/PF917HVodVPlfSjzeNWd+1tcRA81X2r2pS7WOLWQwS/48wSOYpSCjfw9JJFhomQ/2SS2nqMifx3LA==",
+  "dgSpecHash": "AuVl9wYDE1KeXLLDFiZ86+vZce1HG2LzTxB6+eebHZpaPMXLTBNO+rAYxmlaV5oJrahlOQsJz9F9rjefyTNyrg==",
   "success": true,
   "projectFilePath": "D:\\livre\\MInimalAPI_Net6\\MinimalApi\\MinimalApi.csproj",
   "expectedPackageFiles": [
@@ -28,6 +28,8 @@
     "C:\\Users\\alan4\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
     "C:\\Users\\alan4\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\alan4\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.14.0\\microsoft.visualstudio.azure.containers.tools.targets.1.14.0.nupkg.sha512",
+    "C:\\Users\\alan4\\.nuget\\packages\\minimalapis.extensions\\0.11.0\\minimalapis.extensions.0.11.0.nupkg.sha512",
+    "C:\\Users\\alan4\\.nuget\\packages\\minivalidation\\0.8.0\\minivalidation.0.8.0.nupkg.sha512",
     "C:\\Users\\alan4\\.nuget\\packages\\mysqlconnector\\2.1.2\\mysqlconnector.2.1.2.nupkg.sha512",
     "C:\\Users\\alan4\\.nuget\\packages\\pomelo.entityframeworkcore.mysql\\6.0.2\\pomelo.entityframeworkcore.mysql.6.0.2.nupkg.sha512",
     "C:\\Users\\alan4\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
