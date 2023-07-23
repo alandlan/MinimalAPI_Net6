@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "LS6h4F42r8VP3grv4I2pDAGCSrP9WMpIHwJ6fGZQNG+Z+lH2yTM/8LTzuKdw+oq4BeWD1lGC4FPZGLUVpxK1Ow==",
+  "dgSpecHash": "x11vmUNQhXSDFdZh4axZ1zfQtPtgXK7KtY2HzzxgkA6ckPfGGPL6gVBvmWPV0dYV2t8hDv2D7WoHZB/q/YRmIA==",
   "success": true,
   "projectFilePath": "D:\\livre\\MInimalAPI_Net6\\MinimalApi\\MinimalApi.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\alan4\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\alan4\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\alan4\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\alan4\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\alan4\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\alan4\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
   "logs": []
 }
