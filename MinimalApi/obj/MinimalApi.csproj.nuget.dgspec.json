@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\livre\\MInimalAPI_Net6\\MinimalApi\\MinimalApi.csproj": {}
+    "D:\\Livre\\MInimalAPI_Net6\\MinimalApi\\MinimalApi.csproj": {}
   },
   "projects": {
-    "D:\\livre\\MInimalAPI_Net6\\MinimalApi\\MinimalApi.csproj": {
+    "D:\\Livre\\MInimalAPI_Net6\\MinimalApi\\MinimalApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\livre\\MInimalAPI_Net6\\MinimalApi\\MinimalApi.csproj",
+        "projectUniqueName": "D:\\Livre\\MInimalAPI_Net6\\MinimalApi\\MinimalApi.csproj",
         "projectName": "MinimalApi",
-        "projectPath": "D:\\livre\\MInimalAPI_Net6\\MinimalApi\\MinimalApi.csproj",
+        "projectPath": "D:\\Livre\\MInimalAPI_Net6\\MinimalApi\\MinimalApi.csproj",
         "packagesPath": "C:\\Users\\alan4\\.nuget\\packages\\",
-        "outputPath": "D:\\livre\\MInimalAPI_Net6\\MinimalApi\\obj\\",
+        "outputPath": "D:\\Livre\\MInimalAPI_Net6\\MinimalApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\alan4\\AppData\\Roaming\\NuGet\\NuGet.Config",

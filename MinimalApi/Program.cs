@@ -15,12 +15,14 @@ builder.Services.AddDbContext<MinimalContextDb>(options =>
 
 var app = builder.Build();
 
-if (app.Environment.IsDevelopment())
-{
+app.MigrationInitializer();
+
+// if (app.Environment.IsDevelopment())
+// {
     app.UseSwagger();
     app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "MinimalApi v1"));
    
-}
+// }
 
 app.MapGet("/fornecedor", async (MinimalContextDb context) =>
 {

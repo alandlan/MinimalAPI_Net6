@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AuVl9wYDE1KeXLLDFiZ86+vZce1HG2LzTxB6+eebHZpaPMXLTBNO+rAYxmlaV5oJrahlOQsJz9F9rjefyTNyrg==",
+  "dgSpecHash": "PWy99vcZzuDzorxh14N6MyQjdt1dfFdgz/A4zmSY+hgJqP1Xtqruft5u7mma0UfIf2UrSzmmWDxo8t/5pe21zw==",
   "success": true,
-  "projectFilePath": "D:\\livre\\MInimalAPI_Net6\\MinimalApi\\MinimalApi.csproj",
+  "projectFilePath": "D:\\Livre\\MInimalAPI_Net6\\MinimalApi\\MinimalApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alan4\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\alan4\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.14\\microsoft.aspnetcore.cryptography.internal.6.0.14.nupkg.sha512",
