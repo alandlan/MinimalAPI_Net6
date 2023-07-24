@@ -51,6 +51,7 @@ app.MapPost("/fornecedor", async (MinimalContextDb context, Fornecedor fornecedo
     return Results.Created($"/fornecedor/{fornecedor.Id}", fornecedor);
 }).Produces<Fornecedor>(StatusCodes.Status201Created)
 .Produces(StatusCodes.Status400BadRequest)
+.ProducesValidationProblem()
 .WithName("PostFornecedor").WithTags("Fornecedores");
 
 app.Run();
