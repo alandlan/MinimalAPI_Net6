@@ -56,4 +56,17 @@ app.MapPost("/fornecedor", async (MinimalContextDb context, Fornecedor fornecedo
 .ProducesValidationProblem()
 .WithName("PostFornecedor").WithTags("Fornecedores");
 
+app.MapDelete("/fornecedor/{id}", async (MinimalContextDb context, Guid id) =>
+{
+    var fornecedor = await context.Fornecedores.FindAsync(id);
+    if (fornecedor == null)
+        return Results.NotFound();
+
+    context.Fornecedores.Remove(fornecedor);
+    await context.SaveChangesAsync();
+    return Results.NoContent();
+}).Produces(StatusCodes.Status204NoContent)
+.Produces(StatusCodes.Status404NotFound)
+.WithName("DeleteFornecedor").WithTags("Fornecedores");
+
 app.Run();
